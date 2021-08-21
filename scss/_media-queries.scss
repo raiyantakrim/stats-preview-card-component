@@ -21,9 +21,9 @@
     width: 50% !important;
   }
 }
-@media (min-width: 1270px) {
+@media (min-width: 1084px) {
   .card {
-    max-width: 80% !important;
+    width: 90% !important;
     // max-height: 80%;
     flex-direction: row-reverse !important;
     justify-content: space-between;
