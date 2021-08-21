@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+html {
+  font-size: 100%;
+}
+body {
+  font-family: $primaryFont;
+  // font-size: 15px;
+}
+.center-both {
+  display: grid;
+  place-items: center;
+}
+
+.flex {
+  display: flex;
+  &.flex-column {
+    flex-direction: column;
+  }
+  &.jc-space-between {
+    justify-content: space-between;
+  }
+}
+.card {
+  color: $white;
+}
+
+.subtitle {
+  color: $SlightlyTransparentWhite;
+}

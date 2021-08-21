@@ -1,0 +1,56 @@
+@import "variables";
+@import "globals";
+.container {
+  background-color: $veryDarkBlue;
+  min-height: 100vh;
+}
+.card {
+  margin: 5em 1em;
+  background-color: $darkDesaturatedBlue;
+  text-align: center;
+  border-radius: $cardBorderRadius;
+  .card__header {
+    border-radius: $cardBorderRadius $cardBorderRadius 0 0;
+    position: relative;
+    background-color: $softViolet;
+
+    .card__image {
+      display: block;
+      opacity: 0.3;
+      border-radius: $cardBorderRadius $cardBorderRadius 0 0;
+    }
+    // .overlay {
+    //   height: 100%;
+    //   width: 100%;
+    //   background-color: $softViolet;
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   opacity: 0.5;
+    //   border-radius: $cardBorderRadius $cardBorderRadius 0 0;
+    // }
+  }
+  .card__body {
+    padding: 2.33em;
+    .card__heading {
+      margin-bottom: $spacing;
+    }
+    .card__subtitle {
+      margin-bottom: $spacing;
+      line-height: 1.5;
+    }
+  }
+}
+
+.highlight {
+  color: $softViolet;
+}
+
+.stats {
+  font-family: $secondaryFont;
+  text-transform: uppercase;
+  .col {
+    margin-bottom: $spacing;
+  }
+}
+@import "media-queries";
