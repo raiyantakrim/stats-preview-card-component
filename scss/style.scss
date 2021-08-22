@@ -5,6 +5,7 @@
   min-height: 100vh;
 }
 .card {
+  max-width: 1140px;
   margin: 5em 1em;
   background-color: $darkDesaturatedBlue;
   text-align: center;
@@ -16,19 +17,9 @@
 
     .card__image {
       display: block;
-      opacity: 0.3;
+      mix-blend-mode: multiply;
       border-radius: $cardBorderRadius $cardBorderRadius 0 0;
     }
-    // .overlay {
-    //   height: 100%;
-    //   width: 100%;
-    //   background-color: $softViolet;
-    //   position: absolute;
-    //   top: 0;
-    //   left: 0;
-    //   opacity: 0.5;
-    //   border-radius: $cardBorderRadius $cardBorderRadius 0 0;
-    // }
   }
   .card__body {
     padding: 2.33em;
@@ -52,5 +43,8 @@
   .col {
     margin-bottom: $spacing;
   }
+}
+.counter {
+  font-size: 1.5rem;
 }
 @import "media-queries";

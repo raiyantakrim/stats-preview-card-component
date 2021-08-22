@@ -13,59 +13,50 @@
     />
     <link rel="stylesheet" href="css/style.min.css" />
     <title>Frontend Mentor | Stats preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <main class="container center-both">
       <div class="card flex flex-column">
         <header class="card__header">
           <picture>
-            <source media="(min-width: 375px)" srcset="./images/image-header-desktop.jpg">
-            <img class='card__image' src="./images/image-header-mobile.jpg" alt="Card Image">
+            <source
+              media="(min-width: 375px)"
+              srcset="./images/image-header-desktop.jpg"
+            />
+            <img
+              class="card__image"
+              src="./images/image-header-mobile.jpg"
+              alt="Card Image"
+            />
           </picture>
-          <!-- <div class="overlay"></div> -->
         </header>
         <main class="card__body flex flex-column jc-space-between">
           <div class="card__texts">
-            <h1 class="card__heading">Get <span class="highlight">insights</span> that help your business grow.</h1>
-            <p class="card__subtitle subtitle">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-              experience, and overall efficiency.
+            <h1 class="card__heading">
+              Get <span class="highlight">insights</span> that help your
+              business grow.
+            </h1>
+            <p class="card__subtitle subtitle">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
             </p>
           </div>
           <div class="stats flex flex-column flex-sm-row">
-            <div class="col"><h2>10k+</h4>
-            <p class="subtitle">companies</p></div>
-            <div class="col"><h2>314</h4>
-            <p class="subtitle">templates</p></div>
-            <div class="col"><h2>12m+</h4>
-            <p class="subtitle">queries</p></div>
+            <div class="col">
+              <p class="counter">10k+</p>
+              <p class="subtitle">companies</p>
+            </div>
+            <div class="col">
+              <p class="counter">314</p>
+              <p class="subtitle">templates</p>
+            </div>
+            <div class="col">
+              <p class="counter">12m+</p>
+              <p class="subtitle">queries</p>
+            </div>
           </div>
         </main>
       </div>
-    </ma>
-
-    <!-- Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    </main>
   </body>
 </html>
